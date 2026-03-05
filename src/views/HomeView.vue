@@ -8,6 +8,7 @@
 
       <section>
         <h2>Todos los productos disponibles...</h2>
+        <h3>Porfavor termina rapido clase c:</h3>
 
         <div class="row  g-2 justify-content-evenly row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4" v-if="products.length">
           <div class="col" v-for="product in products" :key="product.id">
